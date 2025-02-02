@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechGuides USA - Technical Problem Solutions</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* Header */
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: #1e1e1e;
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 26px;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 14px;
+            margin-bottom: 8px;
+        }
+
+        .hero .description {
+            font-size: 12px;
+            color: #ddd;
+            max-width: 600px;
+            margin: 0 auto 15px;
+        }
+
+        .hero .btn {
+            background: #ff6f61;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            display: inline-block;
+        }
+
+        /* Guides Section */
+        .guides {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .guides h2 {
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+
+        .guide-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .guide-item {
+            flex: 1;
+            min-width: 280px;
+            max-width: 350px;
+            padding: 20px;
+            background: #f4f4f4;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .guide-item i {
+            font-size: 40px;
+            margin-bottom: 15px;
+            color: #ff6f61;
+        }
+
+        .guide-item h3 {
+            font-size: 20px;
+            margin-bottom: 8px;
+        }
+
+        .guide-item p {
+            font-size: 14px;
+            margin-bottom: 12px;
+        }
+
+        .guide-item .btn {
+            background: #333;
+            color: #fff;
+            padding: 8px 16px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        /* About Section */
+        .about {
+            padding: 40px 20px;
+            background: #f4f4f4;
+            text-align: center;
+        }
+
+        .about h2 {
+            font-size: 30px;
+            margin-bottom: 15px;
+        }
+
+        .about p {
+            font-size: 16px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Footer */
+        footer {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer .social-links a {
+            color: #fff;
+            margin: 0 10px;
+            font-size: 20px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav ul li {
+                margin: 5px 0;
+            }
+
+            .hero {
+                padding: 30px 15px;
+            }
+
+            .hero h1 {
+                font-size: 22px;
+            }
+
+            .hero .btn {
+                font-size: 14px;
+                padding: 8px 16px;
+            }
+
+            .guide-list {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .guide-item {
+                width: 100%;
+            }
+
+            .about {
+                padding: 30px 15px;
+            }
+
+            .about h2 {
+                font-size: 24px;
+            }
+
+            .about p {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">TechGuides USA</div>
+                <nav>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#guides">Guides</a></li>
+                        <li><a href="#about">About</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>TV Fix Activation Guide</h1>
+            <p>Having trouble activating your TV?</p>
+            <p class="description">Follow easy troubleshooting steps to fix activation errors, network issues, and screen glitches.</p>
+            <a href="#guides" class="btn">See More TV Fix Guides</a>
+        </div>
+    </section>
+
+    <!-- Guides Section -->
+    <section id="guides" class="guides">
+        <div class="container">
+            <h2>Guides for Any Devices</h2>
+            <div class="guide-list">
+                <div class="guide-item">
+                    <i class="fas fa-laptop"></i>
+                    <h3>Computer Won't Turn On?</h3>
+                    <p>Learn how to troubleshoot and fix a computer that won't power on.</p>
+                    <a href="#" class="btn">Read Guide</a>
+                </div>
+                <div class="guide-item">
+                    <i class="fas fa-wifi"></i>
+                    <h3>Wi-Fi Connection Issues</h3>
+                    <p>Fix slow or unstable Wi-Fi connections with these easy steps.</p>
+                    <a href="#" class="btn">Read Guide</a>
+                </div>
+                <div class="guide-item">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Smartphone Not Charging?</h3>
+                    <p>Discover solutions for smartphones that won't charge properly.</p>
+                    <a href="#" class="btn">Read Guide</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Guides </h2>
+            <p>Guides for devices is your go-to resource for solving common technical problems.</p>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Guides USA. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
