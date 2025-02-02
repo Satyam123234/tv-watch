@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Problem Solutions</title>
+    <title>TechGuides USA - Technical Problem Solutions</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
         /* General Styles */
@@ -109,15 +109,14 @@
 
         .guide-list {
             display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
+            flex-direction: column; /* Cards को ऊपर से नीचे सेट करना */
+            align-items: center; /* Cards को सेंटर में लाना */
             gap: 20px;
         }
 
         .guide-item {
-            flex: 1;
-            min-width: 280px;
-            max-width: 350px;
+            width: 90%;
+            max-width: 350px; /* बॉक्स की अधिकतम चौड़ाई */
             padding: 20px;
             background: #f4f4f4;
             border-radius: 10px;
@@ -254,21 +253,12 @@
                     <ul>
                         <li><a href="#home">Home</a></li>
                         <li><a href="#guides">Guides</a></li>
+                        <li><a href="#about">About</a></li>
                     </ul>
                 </nav>
             </div>
         </div>
     </header>
-
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="container">
-            <h1>TV Fix Activation Guide</h1>
-            <p>Having trouble activating your TV?</p>
-            <p class="description">Follow easy troubleshooting steps to fix activation errors, network issues, and screen glitches.</p>
-            <a href="#guides" class="btn">See More TV Fix Guides</a>
-        </div>
-    </section>
 
     <!-- Guides Section -->
     <section id="guides" class="guides">
@@ -296,25 +286,5 @@
             </div>
         </div>
     </section>
-
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <h2>About Guides</h2>
-            <p>Guides for devices is your go-to resource for solving common technical problems.</p>
-        </div>
-    </section>
-
-    <!-- Footer Section -->
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 Guides USA. All rights reserved.</p>
-            <div class="social-links">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-            </div>
-        </div>
-    </footer>
 </body>
 </html>
